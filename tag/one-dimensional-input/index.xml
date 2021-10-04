@@ -5,7 +5,7 @@
     <link>https://jszh.github.io/tag/one-dimensional-input/</link>
       <atom:link href="https://jszh.github.io/tag/one-dimensional-input/index.xml" rel="self" type="application/rss+xml" />
     <description>one-dimensional input</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Mingyuan Zhong</copyright><lastBuildDate>Sat, 21 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Mingyuan Zhong. For my undergraduate projects, see this archived site. </copyright><lastBuildDate>Sat, 21 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jszh.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>one-dimensional input</title>
@@ -36,7 +36,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>Spacewalker: Rapid UI Design Exploration Using Lightweight Markup Enhancement and Crowd Genetic Programming</title>
+      <title>One-Dimensional Handwriting: Inputting Letters and Words on Smart Glasses</title>
       <link>https://jszh.github.io/publication/16-1d-handwriting/</link>
       <pubDate>Sat, 07 May 2016 00:00:00 +0000</pubDate>
       <guid>https://jszh.github.io/publication/16-1d-handwriting/</guid>

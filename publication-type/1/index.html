@@ -23,14 +23,14 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti" />
+  <meta name="author" content="Mingyuan Zhong" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence" />
+  <meta name="description" content="PhD Student &lt;br&gt; Computer Science &amp; Engineering" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://jszh.github.io/publication-type/1/" />
@@ -62,6 +62,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -210,9 +213,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -252,6 +255,45 @@
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YG75GCC987"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-YG75GCC987', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -297,11 +339,11 @@
   <meta property="og:site_name" content="Mingyuan Zhong" />
   <meta property="og:url" content="https://jszh.github.io/publication-type/1/" />
   <meta property="og:title" content="1 | Mingyuan Zhong" />
-  <meta property="og:description" content="Professor of Artificial Intelligence" /><meta property="og:image" content="https://jszh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content="PhD Student &lt;br&gt; Computer Science &amp; Engineering" /><meta property="og:image" content="https://jszh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://jszh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2013-07-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2021-10-18T00:00:00&#43;00:00" />
     
   
 
@@ -488,155 +530,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -753,13 +647,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/example/" >An example conference paper</a>
+      <a href="/publication/21-new-metrics/" >New Metrics for Understanding Touch by People with and without Limited Fine Motor Function</a>
     </div>
 
     
-    <a href="/publication/example/"  class="summary-link">
+    <a href="/publication/21-new-metrics/"  class="summary-link">
       <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+        In this work, we propose 13 target-agnostic touch performance metrics to characterize what happens during a touch, which are helpful in characterizing different fine motor control challenges.
       </div>
     </a>
     
@@ -772,9 +666,11 @@
       <div>
         
 
-  <span class="author-highlighted">
-      Nelson Bighetti</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  <span >
+      Junhan Kong</span>, <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      James Fogarty</span>, <span >
+      Jacob O. Wobbrock</span>
       </div>
       
     </div>
@@ -794,14 +690,10 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/example/example.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/example/cite.bib">
+        data-filename="/publication/21-new-metrics/cite.bib">
   Cite
 </a>
 
@@ -809,20 +701,10 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
-    Project
-  </a>
-  
 
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
@@ -836,10 +718,583 @@
   <div class="ml-3">
     
     
+  </div>
+</div>
+
     
-    <a href="/publication/example/" >
-      <img src="/publication/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_lanczos.jpg" alt="An example conference paper" loading="lazy">
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/21-helpviz/" >HelpViz: Automatic Generation of Contextual Visual Mobile Tutorials from Text-Based Instructions</a>
+    </div>
+
+    
+    <a href="/publication/21-helpviz/"  class="summary-link">
+      <div class="article-style">
+        We present HelpViz, a tool for generating contextual visual mobile tutorials from text-based instructions that are abundant on the web. HelpViz …
+      </div>
     </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      Gang Li</span>, <span >
+      Peggy Chi</span>, <span >
+      Yang Li</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2108.03356" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/21-helpviz/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/21-spacewalker/" >Spacewalker: Rapid UI Design Exploration Using Lightweight Markup Enhancement and Crowd Genetic Programming</a>
+    </div>
+
+    
+    <a href="/publication/21-spacewalker/"  class="summary-link">
+      <div class="article-style">
+        User interface design is a complex task that involves designers examining a wide range of options. We present Spacewalker, a tool that allows …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      Gang Li</span>, <span >
+      Yang Li</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445326" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/21-spacewalker/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=NlaLGNX8qHc" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3411764.3445326" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/21-proximic/" >ProxiMic: Convenient Voice Activation via Close-to-Mic Speech Detected by a Single Microphone</a>
+    </div>
+
+    
+    <a href="/publication/21-proximic/"  class="summary-link">
+      <div class="article-style">
+        We present ProxiMic, a close-to-mic (within 5 cm) speech sensing technique using only one microphone, which is shown to be efficient, user-friendly, and practical.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Yue Qin</span>, <span >
+      Chun Yu</span>, <span >
+      Zhaoheng Li</span>, <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      Yukang Yan</span>, <span >
+      Yuanchun Shi</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/21-proximic/21-proximic.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/21-proximic/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=umO5NUlzbRw" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3411764.3445687" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/18-forceboard/" >ForceBoard: Subtle Text Entry Leveraging Pressure</a>
+    </div>
+
+    
+    <a href="/publication/18-forceboard/"  class="summary-link">
+      <div class="article-style">
+        ForceBoard is a pressure-based input technique that enables text entry by subtle finger motion, which has the potential of supporting interaction with constraints from form factor, social concern and physical environments.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      Chun Yu</span>, <span >
+      Qian Wang</span>, <span >
+      Xuhai Xu</span>, <span >
+      Yuanchun Shi</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/18-forceboard/18-forceboard.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/18-forceboard/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=_sPGvRXhDHE" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3173574.3174102" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/16-1d-handwriting/" >Spacewalker: Rapid UI Design Exploration Using Lightweight Markup Enhancement and Crowd Genetic Programming</a>
+    </div>
+
+    
+    <a href="/publication/16-1d-handwriting/"  class="summary-link">
+      <div class="article-style">
+        1D Handwriting is a unistroke gesture technique enabling text entry on a one-dimensional interface, such as on the long and narrow trackpad of the Google Glass.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Chun Yu</span>, <span >
+      Ke Sun</span>, <span class="author-highlighted">
+      Mingyuan Zhong</span>, <span >
+      Xincheng Li</span>, <span >
+      Peijun Zhao</span>, <span >
+      Yuanchun Shi</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/16-handwriting.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/16-1d-handwriting/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=l9FIXMPrjF8" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/2858036.2858542" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
     
   </div>
 </div>
@@ -950,6 +1405,10 @@
         
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/java.min.js" crossorigin="anonymous"></script>
         
       
 
